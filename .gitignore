@@ -1,0 +1,84 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# Environment variables / secrets
+.env
+.env.*
+*.pem
+config.ini
+secrets.yaml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data science specific
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.feather
+*.sqlite
+*.db
+
+# Model artifacts
+models/
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+checkpoints/
+
+# MLflow / experiment tracking
+mlruns/
+wandb/
+.neptune/
+
+# Logs
+logs/
+*.log
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+
+# Jupyter kernel
+.ipynb_checkpoints
+
+# OS
+Thumbs.db
